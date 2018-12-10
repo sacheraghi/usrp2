@@ -439,11 +439,11 @@ module u2plus_core
 
    wire [31:0] gpio_readback;
 
-   gpio_atr #(.BASE(SR_GPIO), .WIDTH(32))
-   gpio_atr(.clk(dsp_clk),.reset(dsp_rst),
-	    .set_stb(set_stb_dsp),.set_addr(set_addr_dsp),.set_data(set_data_dsp),
-	    .rx(run_rx0_d1 | run_rx1_d1), .tx(run_tx) ,.gpio({io_tx,io_rx}), .gpio_in(32'h0000_0000)
-	    ,.gpio_readback(gpio_readback) );
+ //  gpio_atr #(.BASE(SR_GPIO), .WIDTH(32))
+ //  gpio_atr(.clk(dsp_clk),.reset(dsp_rst),
+//	    .set_stb(set_stb_dsp),.set_addr(set_addr_dsp),.set_data(set_data_dsp),
+//	    .rx(run_rx0_d1 | run_rx1_d1), .tx(run_tx) ,.gpio({io_tx,io_rx}), .gpio_in(32'h0000_0000)
+//	    ,.gpio_readback(gpio_readback) );
 
    // /////////////////////////////////////////////////////////////////////////
    // Buffer Pool Status -- Slave #5
