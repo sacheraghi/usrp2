@@ -1,0 +1,9 @@
+
+
+##################################################
+# CUSTOM Sources
+##################################################
+CUSTOM_SRCS = $(abspath $(addprefix $(BASE_DIR)/../custom/, \
+custom_dsp_rx.v \
+custom_dsp_tx.v \
+))
