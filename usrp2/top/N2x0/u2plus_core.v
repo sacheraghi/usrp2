@@ -437,7 +437,7 @@ module u2plus_core
    // /////////////////////////////////////////////////////////////////////////
    // GPIOs
 
-   wire [31:0] gpio_readback;
+ //  wire [31:0] gpio_readback;
 
  //  gpio_atr #(.BASE(SR_GPIO), .WIDTH(32))
  //  gpio_atr(.clk(dsp_clk),.reset(dsp_rst),
